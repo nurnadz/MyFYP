@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>EditProject</servlet-name>
+        <servlet-class>Servlet.EditProject</servlet-class>
+    </servlet>
+
+
+
+    <servlet>
+        <servlet-name>DeleteProject</servlet-name>
+        <servlet-class>Servlet.DeleteProject</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditFish</servlet-name>
+        <servlet-class>Servlet.EditFish</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FishEditS</servlet-name>
+        <servlet-class>Servlet.FishEditS</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteFish</servlet-name>
+        <servlet-class>Servlet.DeleteFish</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditResearcher</servlet-name>
+        <servlet-class>Servlet.EditResearcher</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteResearcher</servlet-name>
+        <servlet-class>Servlet.DeleteResearcher</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditProject</servlet-name>
+        <url-pattern>/project_edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteProject</servlet-name>
+        <url-pattern>/project_delete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditFish</servlet-name>
+        <url-pattern>/fish_edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FishEditS</servlet-name>
+        <url-pattern>/fish_edits</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteFish</servlet-name>
+        <url-pattern>/fish_delete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditResearcher</servlet-name>
+        <url-pattern>/researcher_edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteResearcher</servlet-name>
+        <url-pattern>/researcher_delete</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

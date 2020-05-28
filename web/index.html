@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fomwis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+            #container {
+                padding: 20px;
+                background-color: lightblue;
+                width: 500px;
+                border: 15px solid blue;
+                padding: 30px;
+                margin-top: 60px;
+                margin-bottom: 60px;
+            }
+        </style>
+    </head>
+    <body>
+                <form method="post" action="login.jsp">
+            <center>
+                <div id="container">
+                    <h1>LOGIN..</h1>
+                <table>
+                    <tr>
+                        <td><label>User Name:</lable></td>
+                        <td><input type="text" name="txtuname" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="txtpassword" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Login" /></td>
+                        <td><input type="reset" value="Reset" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Yet Not Registered!! <a href="UserRegistrationPage.jsp">Register Here</a></td>
+                    </tr>
+                
+            </table>
+             </div>
+            </center>
+        </form>
+    </body>
+</html>
